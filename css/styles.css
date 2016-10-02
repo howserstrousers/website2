@@ -106,6 +106,8 @@
 			width: 100%;
 			margin:0 auto;
 			font-size: 1.1rem;
+			position: fixed;
+			z-index: 100;
 		}
 
 		nav {
@@ -140,14 +142,12 @@ TOGGLE		.mtoggle{
 		}
 */	
 
-/*glance mobile*/
+/*glance mobile
 
 		.glance {
 			margin:0 auto;
-			text-align: center;
-			overflow: hidden;
-			float:left;
 			padding: 5%;
+			position:fixed;
 		}
 
 		.project{
@@ -156,12 +156,52 @@ TOGGLE		.mtoggle{
 			width:90%;
 			margin-bottom: 6%;
 			margin-top: 4%;
+			position:fixed;
 		}
 
-		.project img{
+		.glance img{
 			width:100%;
 			max-height: 600px;
 		}
+*/
+		#mover{
+			margin:0 auto;
+			width: 90%;
+			overflow-x:hidden;
+			overflow-y:hidden;
+			margin-bottom: 10%;
+		}
+
+
+		.proj{
+			margin-top: 25%;
+
+		}
+
+		#project1{
+			
+		}
+
+		#project2{
+			
+		}
+
+		#project3{
+			
+		}
+	
+		
+
+		.layer{
+			
+		}
+
+		.proj img{
+			margin:0 auto;
+			width:100%;
+			height:100%;
+		}
+
 
 
 </style>

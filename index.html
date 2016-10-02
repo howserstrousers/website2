@@ -11,7 +11,10 @@
 
 	<!-- JQUERY PLUG -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
-			</script>
+		</script>
+
+	<!-- PARALLAX -->
+		<script src="js/jquery.parallax.js"></script>
 
 	<!-- CUSTOM SCRIPTS -->
 		<script src="js/scripts.js"></script>
@@ -41,27 +44,51 @@ NAV
 		</div>
 <!-- 
 TOGGLE
+
 	
 		<div class="mtoggle type">
 			<p class="graphic filter">G</p>
 			<p class="motion filter">M</p>
 			<p class="web filter">W</p>
 		</div>
--->	
+
 		<div class="glance type">
-			<div class="project">
+			<div class="layer project" data-depth="0.50">
 				<img src="img/projects/thesis.gif">
 			</div>
 
-			<div class="project">
+			<div class="layer project" data-depth="0.50">
 				<img src="img/projects/organscroll.gif">
 			</div>
 
-			<div class="project">
+			<div class="layer project" data-depth="0.50">
 				<img src="img/projects/surf.gif">
 			</div>
+		</div>	
+-->	
+	<div id="mover">
+		<div id="project1" class="proj">
+			<li class="layer" data-depth="1.0">
+			<a href="work.html">
+				<img src="img/projects/thesis.gif">
+			<a/>
+			</li>
 		</div>
-
+		<div id="project2" class="proj">
+			<li class="layer" data-depth="1.0">
+				<a href="work.html">
+				<img src="img/projects/organscroll.gif">
+			</a>
+			</li>
+		</div>
+		<div id="project3" class="proj">
+			<li class="layer" data-depth="1.0">
+			<a href="work.html">
+				<img src="img/projects/surf.gif">
+			</a>
+			</li>
+		</div>
+	</div>
 
 	</body>
 </html>
