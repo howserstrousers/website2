@@ -103,7 +103,8 @@
 			margin-bottom: 9%;
 			margin-top:8%;
 			color:#1b0e44;
-			letter-spacing: .1rem;
+			letter-spacing: .2rem;
+			text-transform: uppercase;
 		}
 
 		.copyright {
@@ -120,34 +121,37 @@
 		}
 
 		.navigation{
-			width: 100%;
-			margin:0 auto;
+			padding: 0 auto;
 			font-size: 1.1rem;
-			position: fixed;
 			z-index: 100;
-		}
-
-		nav {
-			margin: 0 auto;
 			width:100%;
-			text-align: center;
-			}
+			height:50px;
+			background-color: pink;
+			z-index: 100;
+			position: fixed;
 
-		nav ul {
-			margin: 0;
-			padding: 0;
 		}
+
+		nav { 
+			position: fixed;
+			width:300px;
+			margin-left: 50%;
+			left:-153px;
+			}
 
 		nav ul li{
 			display: inline-block;
+			padding-left: 5%;
+			padding-right: 5%;
+
 		}
+		
 
 		.nav-button {
 			text-decoration: underline;
 			}
 
 		.nav-buttonspace {
-			margin-right: 10%;
 		}
 /*		
 TOGGLE		.mtoggle{
@@ -184,7 +188,7 @@ TOGGLE		.mtoggle{
 		#mover{
 			margin:0 auto;
 			width: 100%;
-			margin-top: 35%;
+			margin-top: 20%;
 			margin-bottom: 10%;
 		}
 
@@ -227,13 +231,13 @@ TOGGLE		.mtoggle{
 		}
 
 		.item{
+			width:100%;
 			margin-top: 10%;
-			margin-bottom: 10%;
-			border-left:.7px solid #767757;
-			border-right:.7px solid #767757;
+			border-bottom:.7px solid #767757;
 		}
 
 		.full{
+			width:75%;
 		}
 
 		.preview{
@@ -318,6 +322,7 @@ TOGGLE		.mtoggle{
 			margin-bottom: 0%;
 			padding-left: 2%;
 			border-left:.7px solid #767757;
+			border-bottom:none;
 			border-right:none;
 		}
 
