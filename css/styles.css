@@ -104,7 +104,20 @@
 			margin-top:8%;
 			color:#1b0e44;
 			letter-spacing: .1rem;
-			}
+		}
+
+		.copyright {
+			margin: 0 auto;
+			bottom:0;
+			right:0;
+			width:15px;
+			margin-top:5%; 
+		}
+
+		.copyright img{		
+			width:100%;
+			height:100%;
+		}
 
 		.navigation{
 			width: 100%;
@@ -201,6 +214,32 @@ TOGGLE		.mtoggle{
 			height:70%;
 		}
 
+		#work .copyright{
+			bottom:0;
+			right:0;
+			position: fixed;
+		}
+
+		.list{
+			margin: 0 auto;
+			margin-top: 30%;
+			width: 90%;
+		}
+
+		.item{
+			margin-top: 10%;
+			margin-bottom: 10%;
+			border-left:.7px solid #767757;
+			border-right:.7px solid #767757;
+		}
+
+		.full{
+		}
+
+		.preview{
+			
+		}
+
 
 
 /*TABLET*/
@@ -217,6 +256,21 @@ TOGGLE		.mtoggle{
 		}
 
 		.proj{
+
+		}
+
+		#project5 img{
+			margin-left: 15%;
+			width:50%;
+			height:50%;
+		}
+
+		.list{
+			margin-top: 20%;
+			width: 70%;
+		}
+
+		.item{
 
 		}
 
@@ -248,12 +302,27 @@ TOGGLE		.mtoggle{
 
 		}
 
-		.proj p{
-			bottom:0;
+		.copyright{
+			position:fixed;
 		}
 
-		#project4 img{
+		.list{
+			margin-top: 8%;
+			width:50%;
+			float:right;
+		}
 
+
+		.item{
+			margin-top: 3%;
+			margin-bottom: 0%;
+			padding-left: 2%;
+			border-left:.7px solid #767757;
+			border-right:none;
+		}
+
+		.preview{
+			display: none;
 		}
 	}
 
