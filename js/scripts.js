@@ -6,8 +6,8 @@ window.onload = function() {
 	      invertY: false,
 	      scalarX:10,
 	      scalarY:10,
-	      originX:1,
-	      originY:0,
+	      originX:.5,
+	      originY:.5,
 	    });
 	/*
 	    $('#project2').parallax({
@@ -34,5 +34,5 @@ window.onload = function() {
 	    });
 	*/
 
-	})
+	});
 }
