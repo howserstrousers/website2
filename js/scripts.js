@@ -9,6 +9,10 @@ window.onload = function() {
 	      originX:.5,
 	      originY:.5,
 	    });
+
+	    $('.preview').click(function(){
+      		$('.full').toggle();
+    	});
 	});
 
 
