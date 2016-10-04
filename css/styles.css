@@ -125,7 +125,6 @@
 			z-index: 100;
 			width:100%;
 			height:50px;
-			background-color: pink;
 			z-index: 100;
 			position: fixed;
 			color:#1b0e44; /*deep purple*/
@@ -280,6 +279,15 @@ TOGGLE		.mtoggle{
 				width:100%;
 		}
 
+		.hider {
+			margin:0 auto;
+			width:100%;
+			display:none;
+		}
+
+		.hider img{
+			width:100%;
+		}
 
 
 /*TABLET*/
@@ -348,24 +356,48 @@ TOGGLE		.mtoggle{
 
 		.list{
 			margin-top: 8%;
-			width:50%;
+			width:30%;
 			float:right;
 		}
 
 
 		.item{
-			margin-top: 1%;
-			margin-bottom: 0%;
-			border-left:.7px solid #9f92f4; /*purple like color code #*/
+			margin: 0 auto;
+			margin-bottom: 3%;
+			padding:0 auto;
+			width:100%;
 			border-bottom:none;
 			border-right:none;
+			border-left:.7px solid #9f92f4; /*purple like color code #*/
+			font-size: 1rem;
+			line-height: 0rem;
 			background-color: white;
-			padding-bottom:0;
+		}
 
+		.full{
+			margin:0 auto;
+			padding:0 auto;
 		}
 
 		.preview{
 			display: none;
+		}
+
+		.full:hover .hider{
+
+		}
+
+		.hider {
+			margin:0 auto;
+			width:65%;
+			position:fixed;
+			left:0;
+			top:30%;
+			display:none;
+		}
+
+		.hider img{
+			width:100%;
 		}
 	}
 

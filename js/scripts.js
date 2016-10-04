@@ -11,7 +11,11 @@ window.onload = function() {
 	    });
 
 	    $('.preview').click(function(){
-      		$('.full').toggle();
+      		$('.hider').toggle();
+    	});
+
+    	$('.full').hover(function(){
+    		$('.hider').toggle();
     	});
 	});
 
