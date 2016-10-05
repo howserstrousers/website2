@@ -8,14 +8,16 @@ window.onload = function() {
 	      scalarY:10,
 	      originX:.5,
 	      originY:.5,
+	      calibrateX:true,
+	      calibrateY:true,
 	    });
 
-	    $('.preview').click(function(){
-      		$('.hider').toggle();
+	    $('.p1').click(function(){
+      		$('.h1').toggle();
     	});
 
-    	$('.full').hover(function(){
-    		$('.hider').toggle();
+    	$('.f1').hover(function(){
+    		$('.h1').toggle();
     	});
 	});
 
