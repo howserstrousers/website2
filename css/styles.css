@@ -237,7 +237,7 @@ TOGGLE		.mtoggle{
 			border-bottom:1px solid #124ded; /*blue*/
 			border-top: 1px solid #fdddff; /*light purple*/
 			border-left:1px solid red;
-			border-right:1px solid #f4ee42;/* yellow */
+			border-right:1px solid #f29109;/* orange */
 
 
 			display:inline-block;
@@ -253,9 +253,9 @@ TOGGLE		.mtoggle{
 		}
 
 		@keyframes previewcolor {
-	    0%   {color: red;}
-	    25%  {color: #fdddff;}
-	    50%  {color: #f4ee42;}
+	    0%   {color: #124ded;}
+	    25%  {color: red;}
+	    50%  {color: #f29109;}
 	    100% {color: #124ded;}
 		}
 
@@ -377,7 +377,7 @@ TOGGLE		.mtoggle{
 		}
 
 		@keyframes borderleft {
-			
+
 		}
 
 
