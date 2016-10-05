@@ -191,11 +191,13 @@ TOGGLE		.mtoggle{
 		}
 
 
+
+
 		.proj{
 			margin-top: 15%;
 			padding-bottom: 4%;
-			border-left:.7px solid #767757;
-			border-right:.7px solid #767757;
+			border-left:.7px double red;
+			border-right:.7px double #f29109;
 			text-align: center;
 		}
 
@@ -234,10 +236,10 @@ TOGGLE		.mtoggle{
 			width:100%;
 			margin-top: 10%;
 			padding-bottom:.5%;
-			border-bottom:1px solid #124ded; /*blue*/
-			border-top: 1px solid #fdddff; /*light purple*/
-			border-left:1px solid red;
-			border-right:1px solid #f29109;/* orange */
+			border-bottom:.7px solid #124ded; /*blue*/
+			border-top: .7px solid #fdddff; /*light purple*/
+			border-left:.7px solid red;
+			border-right:.7px solid #f29109;/* orange */
 
 
 			display:inline-block;
@@ -253,10 +255,10 @@ TOGGLE		.mtoggle{
 		}
 
 		@keyframes previewcolor {
-	    0%   {color: #124ded;}
-	    25%  {color: red;}
-	    50%  {color: #f29109;}
-	    100% {color: #124ded;}
+		0% {color:black;}
+	    50% {color:black;}
+	    51% {color:red;}
+	    100% {color:black;}
 		}
 
 		.preview{
@@ -269,7 +271,7 @@ TOGGLE		.mtoggle{
 			text-decoration: underline;
 
 			animation-name: previewcolor;
-    		animation-duration: 2s;
+    		animation-duration: 3s;
     		animation-iteration-count:infinite;
 		}
 
@@ -372,19 +374,23 @@ TOGGLE		.mtoggle{
 
 		.list{
 			margin-top: 8%;
-			width:30%;
+			width:50%;
 			float:right;
 		}
 
 		@keyframes borderleft {
-
+			0% {border-left: .7px solid black;}
+	    	50% {border-left: .7px solid black;}
+	    	51% {border-left: .7px solid red;}
+	    	100% {border-left: .7px solid black;}
 		}
 
 
 		.item{
 			margin: 0 auto;
-			margin-bottom: 3%;
 			padding:0 auto;
+			margin-bottom: 2%;
+			height:20px;
 			width:100%;
 			border-bottom:none;
 			border-right:none;
@@ -393,6 +399,11 @@ TOGGLE		.mtoggle{
 			font-size: 1rem;
 			line-height: 0rem;
 			background-color: white;
+
+			animation-name: borderleft;
+    		animation-duration: 3s;
+    		animation-iteration-count:infinite;
+
 		}
 
 		.full{
@@ -410,9 +421,9 @@ TOGGLE		.mtoggle{
 
 		.hider {
 			margin:0 auto;
-			width:55%;
+			width:45%;
 			position:fixed;
-			left:10%;
+			left:2%;
 			top:30%;
 			display:none;
 		}
