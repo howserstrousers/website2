@@ -60,14 +60,16 @@
 	}
 
 	body{	
-		color:#1b0e44; /*deep purple*/
+		color:#4a368a; /*deep purple*/
 			}
 
 	/*type*/
 		html {
 			font-size: 12px;
-			color:#1b0e44; /*Dark Green*/
+			color:#4a368a; /*dark purple*/
 		}
+/*og purple #1b0e44*/		
+ /*other purple #4a368a*/
 
 		h1 {
 			font-size: 3rem;
@@ -85,12 +87,12 @@
 	/*links*/
 
 		a:visited{
-			color:#1b0e44; /*purple*/
+			color:#4a368a; /*purple*/
 			text-decoration: none;
 		}
 
 		a:link {
-			color:#1b0e44; /*purple*/
+			color:#4a368a; /*purple*/
 			text-decoration: none;
 		}
 
@@ -103,7 +105,6 @@
 			text-align: center;
 			margin-bottom: 8%;
 			margin-top:8%;
-			color:#1b0e44; /*deep purple*/
 			letter-spacing: .2rem;
 			text-transform: uppercase;
 		}
@@ -155,7 +156,7 @@
 
 		.welcome{
 			margin: 0 auto;
-			margin-top: 30%;
+			margin-top: 25%;
 			width:90%;
 
 		}
@@ -169,13 +170,13 @@
 		#mover{
 			margin:0 auto;
 			width: 100%;
-			margin-top: 20%;
+			margin-top: 10%;
 			margin-bottom: 10%;
 		}
 
 
 		.proj{
-			margin-top: 15%;
+			margin-top: 5%;
 			padding-bottom: 4%;
 			border-left:.7px double red;
 			border-right:.7px double #f29109;
@@ -207,7 +208,7 @@
 
 		.list{
 			margin: 0 auto;
-			margin-top: 20%;
+			margin-top: 15%;
 			margin-bottom: 10%;
 			width: 90%;
 			color:#1b0e44; /*deep purple*/
@@ -242,24 +243,34 @@
 	    100% {color:black;}
 		}
 
+		@-webkit-keyframes previewcolor {
+		0% {color:black;}
+	    50% {color:black;}
+	    51% {color:red;}
+	    100% {color:black;}
+		}
+
 		.preview{
 			width:15%;
 			float:left;
 			text-align: center;
 			padding:0%;
 			padding-left: 15%;
-			color:#9f92f4;
 			text-decoration: underline;
 
 			animation-name: previewcolor;
     		animation-duration: 3s;
     		animation-iteration-count:infinite;
 
-    		display: none;
+    		-webkit-animation-name: previewcolor;
+    		-webkit-animation-duration: 3s;
+    		-webkit-animation-iteration-count:infinite;
+
+
 		}
 
 		.container{
-			margin-top: 30%;
+			margin-top: 25%;
 		}
 
 		.description{
@@ -292,6 +303,17 @@
 			margin:0 auto;
 			width:100%;
 			display:none;
+
+		}
+
+		.hider video{
+			width:100%;
+			font-size: 0;
+		}
+
+		.h1 video{
+			margin:0 auto;
+			width: 110%
 		}
 
 		.hider img{
@@ -492,26 +514,26 @@
 	@media only screen and (min-width : 768px) and (max-width : 1024px) {
 		.name{
 			margin-bottom: 5%;
-			margin-top:4%;
+			margin-top:5%;
 		}
 
 
 		#mover{
-			margin-top: 20%;
+			margin-top: 10%;
 			width: 70%;
 		}
 
 		.welcome{
-			margin-top: 20%;
+			margin-top: 15%;
 			width:70%;
 		}
 
 		.proj{
-
+			margin-top: 5%;
 		}
 
 		#project5 img{
-			margin-left: 15%;
+			margin-left: 10%;
 			width:50%;
 			height:50%;
 		}
@@ -526,7 +548,11 @@
 		}
 
 		.container{
-			margin-top: 20%;
+			margin-top: 5%;
+		}
+
+		.description{
+			margin-top: 10%;
 		}
 
 	}
@@ -541,7 +567,7 @@
 
 		#mover{
 			margin: 0 auto;
-			margin-top: 10%;
+			margin-top:0;
 			margin-left: 2.5%;
 			text-align: center;
 			width: 100%;
@@ -578,6 +604,13 @@
 	    	100% {border-left: .7px solid black;}
 		}
 
+		@-webkit-keyframes borderleft {
+			0% {border-left: .7px solid black;}
+	    	50% {border-left: .7px solid black;}
+	    	51% {border-left: .7px solid red;}
+	    	100% {border-left: .7px solid black;}
+		}
+
 
 		.item{
 			margin: 0 auto;
@@ -596,6 +629,10 @@
 			animation-name: borderleft;
     		animation-duration: 3s;
     		animation-iteration-count:infinite;
+
+    		-webkit-animation-name: borderleft;
+    		-webkit-animation-duration: 3s;
+    		-webkit-animation-iteration-count:infinite;
 
 		}
 
