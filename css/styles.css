@@ -60,6 +60,7 @@
 	}
 
 	body{	
+		color:#1b0e44; /*deep purple*/
 			}
 
 	/*type*/
@@ -90,7 +91,7 @@
 
 		a:link {
 			color:#1b0e44; /*purple*/
-reen			text-decoration: none;
+			text-decoration: none;
 		}
 
 /*nav mobile*/
@@ -152,14 +153,25 @@ reen			text-decoration: none;
 		.nav-buttonspace {
 		}
 
+		.welcome{
+			margin: 0 auto;
+			margin-top: 30%;
+			width:90%;
+
+		}
+
+		.welcome p{
+			text-align: center;
+			line-height: 1.5rem;
+		}
+
+
 		#mover{
 			margin:0 auto;
 			width: 100%;
 			margin-top: 20%;
 			margin-bottom: 10%;
 		}
-
-
 
 
 		.proj{
@@ -242,6 +254,8 @@ reen			text-decoration: none;
 			animation-name: previewcolor;
     		animation-duration: 3s;
     		animation-iteration-count:infinite;
+
+    		display: none;
 		}
 
 		.container{
@@ -634,28 +648,38 @@ reen			text-decoration: none;
 		}
 /*THESIS PAGE
 */
+
+		#thesis .container{
+			width:100%;
+			max-width:auto;
+		}
+
 		.gifs{
 			width:100%;
 		}
 
 		.inside{
-				width:25%;
-				margin:5% auto;
 				float:left;
+				width:30%;
+				padding:0.25%;
+				margin:1%;
+				margin-left: 2.5%
 			}
-
-
 
 		.outside{
-				width:25%;
-				margin:1% auto;
 				float:left;
+				width:30%;
+				padding:0.25%;
+				margin:1%;
+				
 			}
 
-			.random{
-				width:25%;
-				margin:1% auto;
+		.random{
 				float:left;
+				width:30%;
+				padding:0.25%;
+				margin:1%;
+
 			}
 
 
