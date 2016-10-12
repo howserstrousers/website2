@@ -92,6 +92,14 @@ window.onload = function() {
     		$('.h10').toggle();
     	});
 
+        $('.p11').click(function(){
+            $('.h11').toggle();
+        });
+
+        $('.f11').hover(function(){
+            $('.h11').toggle();
+        });
+
     // thesis dogshit
     	$(".statement").click(function(){
         	$(".about").toggle();

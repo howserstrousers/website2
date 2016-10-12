@@ -280,6 +280,7 @@
 
 		.description p{
 			margin: 0 auto;
+			line-height: 1.5rem;
 		}
 
 		#about .description p{
@@ -297,6 +298,12 @@
 		.content img{
 				margin:0 auto;
 				width:100%;
+		}
+
+		.content p{
+			text-align: center;
+			line-height: 1.2rem;
+
 		}
 
 		.hider {
