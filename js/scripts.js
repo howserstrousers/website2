@@ -16,7 +16,7 @@ window.onload = function() {
       		$('.h1').toggle();
     	});
 
-    	$('.f1').hover(function(){
+    	$('.f1 a p').hover(function(){
     		$('.h1').toggle();
     	});
 
@@ -24,7 +24,7 @@ window.onload = function() {
       		$('.h2').toggle();
     	});
 
-    	$('.f2').hover(function(){
+    	$('.f2 a p').hover(function(){
     		$('.h2').toggle();
     	});
 
@@ -32,7 +32,7 @@ window.onload = function() {
       		$('.h3').toggle();
     	});
 
-    	$('.f3').hover(function(){
+    	$('.f3 a p').hover(function(){
     		$('.h3').toggle();
     	});
 
@@ -40,7 +40,7 @@ window.onload = function() {
       		$('.h4').toggle();
     	});
 
-    	$('.f4').hover(function(){
+    	$('.f4 a p').hover(function(){
     		$('.h4').toggle();
     	});
 
@@ -48,7 +48,7 @@ window.onload = function() {
       		$('.h5').toggle();
     	});
 
-    	$('.f5').hover(function(){
+    	$('.f5 a p').hover(function(){
     		$('.h5').toggle();
     	});
 
@@ -56,7 +56,7 @@ window.onload = function() {
       		$('.h6').toggle();
     	});
 
-    	$('.f6').hover(function(){
+    	$('.f6 a p').hover(function(){
     		$('.h6').toggle();
     	});
 
@@ -64,7 +64,7 @@ window.onload = function() {
       		$('.h7').toggle();
     	});
 
-    	$('.f7').hover(function(){
+    	$('.f7 a p').hover(function(){
     		$('.h7').toggle();
     	});
 
@@ -72,7 +72,7 @@ window.onload = function() {
       		$('.h8').toggle();
     	});
 
-    	$('.f8').hover(function(){
+    	$('.f8 a p').hover(function(){
     		$('.h8').toggle();
     	});
 
@@ -80,7 +80,7 @@ window.onload = function() {
       		$('.h9').toggle();
     	});
 
-    	$('.f9').hover(function(){
+    	$('.f9 a p').hover(function(){
     		$('.h9').toggle();
     	});
 
@@ -88,7 +88,7 @@ window.onload = function() {
       		$('.h10').toggle();
     	});
 
-    	$('.f10').hover(function(){
+    	$('.f1 a p0').hover(function(){
     		$('.h10').toggle();
     	});
 
@@ -96,7 +96,7 @@ window.onload = function() {
             $('.h11').toggle();
         });
 
-        $('.f11').hover(function(){
+        $('.f1 a p1').hover(function(){
             $('.h11').toggle();
         });
 
