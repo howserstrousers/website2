@@ -60,13 +60,13 @@
 	}
 
 	body{	
-		color:#4a368a; /*deep purple*/
+		color:#1b0e44; /*deep purple*/
 			}
 
 	/*type*/
 		html {
 			font-size: 12px;
-			color:#4a368a; /*dark purple*/
+			color:#1b0e44; /*V dark og purple*/
 		}
 /*og purple #1b0e44*/		
  /*other purple #4a368a*/
@@ -87,12 +87,12 @@
 	/*links*/
 
 		a:visited{
-			color:#4a368a; /*purple*/
+			color:#1b0e44; /*purple*/
 			text-decoration: none;
 		}
 
 		a:link {
-			color:#4a368a; /*purple*/
+			color:#1b0e44; /*purple*/
 			text-decoration: none;
 		}
 
@@ -257,6 +257,7 @@
 			padding:0%;
 			padding-left: 15%;
 			text-decoration: underline;
+			cursor: pointer;
 
 			animation-name: previewcolor;
     		animation-duration: 3s;

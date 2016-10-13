@@ -12,7 +12,7 @@ window.onload = function() {
 	      calibrateY:true,
 	    });
 	// work previews
-	    $('.p1').click(function(){
+	    $('.p1 p').click(function(){
       		$('.h1').toggle();
     	});
 
@@ -20,7 +20,7 @@ window.onload = function() {
     		$('.h1').toggle();
     	});
 
-    	$('.p2').click(function(){
+    	$('.p2 p').click(function(){
       		$('.h2').toggle();
     	});
 
@@ -28,7 +28,7 @@ window.onload = function() {
     		$('.h2').toggle();
     	});
 
-    	$('.p3').click(function(){
+    	$('.p3 p').click(function(){
       		$('.h3').toggle();
     	});
 
@@ -36,7 +36,7 @@ window.onload = function() {
     		$('.h3').toggle();
     	});
 
-    	$('.p4').click(function(){
+    	$('.p4 p').click(function(){
       		$('.h4').toggle();
     	});
 
@@ -44,7 +44,7 @@ window.onload = function() {
     		$('.h4').toggle();
     	});
 
-    	$('.p5').click(function(){
+    	$('.p5 p').click(function(){
       		$('.h5').toggle();
     	});
 
@@ -52,7 +52,7 @@ window.onload = function() {
     		$('.h5').toggle();
     	});
 
-    	$('.p6').click(function(){
+    	$('.p6 p').click(function(){
       		$('.h6').toggle();
     	});
 
@@ -60,7 +60,7 @@ window.onload = function() {
     		$('.h6').toggle();
     	});
 
-    	$('.p7').click(function(){
+    	$('.p7 p').click(function(){
       		$('.h7').toggle();
     	});
 
@@ -68,7 +68,7 @@ window.onload = function() {
     		$('.h7').toggle();
     	});
 
-    	$('.p8').click(function(){
+    	$('.p8 p').click(function(){
       		$('.h8').toggle();
     	});
 
@@ -76,7 +76,7 @@ window.onload = function() {
     		$('.h8').toggle();
     	});
 
-    	$('.p9').click(function(){
+    	$('.p9 p').click(function(){
       		$('.h9').toggle();
     	});
 
@@ -84,7 +84,7 @@ window.onload = function() {
     		$('.h9').toggle();
     	});
 
-    	$('.p10').click(function(){
+    	$('.p1 p0').click(function(){
       		$('.h10').toggle();
     	});
 
@@ -92,7 +92,7 @@ window.onload = function() {
     		$('.h10').toggle();
     	});
 
-        $('.p11').click(function(){
+        $('.p1 p1').click(function(){
             $('.h11').toggle();
         });
 
