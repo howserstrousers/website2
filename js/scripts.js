@@ -11,93 +11,114 @@ window.onload = function() {
 	      calibrateX:true,
 	      calibrateY:true,
 	    });
+
+        $('#project2').parallax({
+          invertX: true,
+          invertY: true,
+          scalarX:10,
+          scalarY:10,
+          originX:.5,
+          originY:.5,
+          calibrateX:true,
+          calibrateY:true,
+        });
+
+
 	// work previews
-	    $('.p1 p').click(function(){
+	    $('.p1').click(function(){
       		$('.h1').toggle();
     	});
 
-    	$('.f1 a p').hover(function(){
+    	$('.f1 p').hover(function(){
     		$('.h1').toggle();
     	});
 
-    	$('.p2 p').click(function(){
+    	$('.p2').click(function(){
       		$('.h2').toggle();
     	});
 
-    	$('.f2 a p').hover(function(){
+    	$('.f2 p').hover(function(){
     		$('.h2').toggle();
     	});
 
-    	$('.p3 p').click(function(){
+    	$('.p3').click(function(){
       		$('.h3').toggle();
     	});
 
-    	$('.f3 a p').hover(function(){
+    	$('.f3 p').hover(function(){
     		$('.h3').toggle();
     	});
 
-    	$('.p4 p').click(function(){
+    	$('.p4').click(function(){
       		$('.h4').toggle();
     	});
 
-    	$('.f4 a p').hover(function(){
+    	$('.f4 p').hover(function(){
     		$('.h4').toggle();
     	});
 
-    	$('.p5 p').click(function(){
+    	$('.p5').click(function(){
       		$('.h5').toggle();
     	});
 
-    	$('.f5 a p').hover(function(){
+    	$('.f5 p').hover(function(){
     		$('.h5').toggle();
     	});
 
-    	$('.p6 p').click(function(){
+    	$('.p6').click(function(){
       		$('.h6').toggle();
     	});
 
-    	$('.f6 a p').hover(function(){
+    	$('.f6 p').hover(function(){
     		$('.h6').toggle();
     	});
 
-    	$('.p7 p').click(function(){
+    	$('.p7').click(function(){
       		$('.h7').toggle();
     	});
 
-    	$('.f7 a p').hover(function(){
+    	$('.f7 p').hover(function(){
     		$('.h7').toggle();
     	});
 
-    	$('.p8 p').click(function(){
+    	$('.p8').click(function(){
       		$('.h8').toggle();
     	});
 
-    	$('.f8 a p').hover(function(){
+    	$('.f8 p').hover(function(){
     		$('.h8').toggle();
     	});
 
-    	$('.p9 p').click(function(){
+    	$('.p9').click(function(){
       		$('.h9').toggle();
     	});
 
-    	$('.f9 a p').hover(function(){
+    	$('.f9 p').hover(function(){
     		$('.h9').toggle();
     	});
 
-    	$('.p1 p0').click(function(){
+    	$('.p10 p').click(function(){
       		$('.h10').toggle();
     	});
 
-    	$('.f1 a p0').hover(function(){
+    	$('.f10 p').hover(function(){
     		$('.h10').toggle();
     	});
 
-        $('.p1 p1').click(function(){
+        $('.p11 p').click(function(){
             $('.h11').toggle();
         });
 
-        $('.f1 a p1').hover(function(){
+        $('.f11 p').hover(function(){
             $('.h11').toggle();
+        });
+
+        $('.p12 p').click(function(){
+            $('.h12').toggle();
+        });
+
+        $('.f12 p').hover(function(){
+            $('.h12').toggle();
         });
 
     // thesis dogshit

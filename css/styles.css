@@ -101,7 +101,7 @@
 		.name {
 			margin: 0 auto;
 			padding: 0 auto;
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 			text-align: center;
 			margin-bottom: 8%;
 			margin-top:8%;
@@ -169,13 +169,14 @@
 
 		#mover{
 			margin:0 auto;
-			width: 100%;
+			width: 80%;
 			margin-top: 10%;
 			margin-bottom: 10%;
 		}
 
 
 		.proj{
+			width:100%;
 			margin-top: 5%;
 			padding-bottom: 4%;
 			border-left:.7px double red;
@@ -228,12 +229,17 @@
 		}
 
 		.full{
-			width:65%;
+			width: auto;
 			float:left;
+			margin-left: 5%;
 		}
 
 		.full p{
-			padding-left: 5%
+			white-space: nowrap;
+		}
+
+		.full p:hover{
+			text-decoration: none;
 		}
 
 		@keyframes previewcolor {
@@ -251,11 +257,10 @@
 		}
 
 		.preview{
-			width:15%;
-			float:left;
+			float:right;
 			text-align: center;
 			padding:0%;
-			padding-left: 15%;
+			padding-right: 10%;
 			text-decoration: underline;
 			cursor: pointer;
 
@@ -542,6 +547,12 @@
 			height:50%;
 		}
 
+		#project6 img{
+
+			width:50%;
+			height:50%;
+		}
+
 		.list{
 			margin-top: 10%;
 			width: 70%;
@@ -570,9 +581,10 @@
 		}
 
 		#mover{
+			width:100%;
 			margin: 0 auto;
+			margin-left: 2%;
 			margin-top:0;
-			margin-left: 2.5%;
 			text-align: center;
 			width: 100%;
 		}
@@ -584,10 +596,10 @@
 
 		.proj{
 			float:left;
-			margin-bottom: 2%;
 			margin-left: 5%;
-			width:40%;
-			height: 450px;
+			margin-bottom: 2%;
+			width:25%;
+			height: 350px;
 
 		}
 
@@ -645,6 +657,11 @@
 		.full{
 			margin:0 auto;
 			padding:0 auto;
+			margin-left: 3%;
+		}
+
+		.full p:hover{
+			text-decoration: underline;
 		}
 
 		.preview{
@@ -657,10 +674,10 @@
 
 		.hider {
 			margin:0 auto;
-			width:40%;
+			width:32%;
 			position:fixed;
-			left:5%;
-			top:20%;
+			left:10%;
+			top:30%;
 			display:none;
 			max-width:500px;
 
@@ -674,16 +691,16 @@
 			width:100%;
 		}
 
-		.h2 img{
+		.h6 img{
 			margin:0 auto;
 			width:80%;
 			margin-left:10%;
 		}
 
-		.h6 img{
+		.h11 img{
 			margin:0 auto;
-			width:80%;
-			margin-left:10%;
+			width:60%;
+			margin-left:20%;
 		}
 
 		.container{
@@ -753,8 +770,8 @@
 
 @media only screen and (min-width : 1220px){
 	.hider{
-		left:8%;
-		top:22%;
+		left:10%;
+		top:30%;
 
 	}
 
