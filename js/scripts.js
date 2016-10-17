@@ -4,8 +4,8 @@ window.onload = function() {
 		$('.proj').parallax({
 	      invertX: false,
 	      invertY: false,
-	      scalarX:10,
-	      scalarY:10,
+	      scalarX:15,
+	      scalarY:15,
 	      originX:.5,
 	      originY:.5,
 	      calibrateX:true,
